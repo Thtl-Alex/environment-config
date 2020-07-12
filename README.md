@@ -1,10 +1,10 @@
-## Environment config
+## Environment Configuration
 ### Requirements
 - Alacritty version >= 0.5.0
 ### Create hard links for config files
 ```
 ln ${HOME_DIR}/environment-config/.tmux.conf ~/.tmux.conf
-ln ${HOME_DIR}/environment-config/alacritty.yml .config/alacritty/alacritty.yml
+ln ${HOME_DIR}/environment-config/alacritty.yml ~/.config/alacritty/alacritty.yml
 ```
 ### Use Alacritty as default terminal (Ctrl + Alt + T)
 ```
